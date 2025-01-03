@@ -1,6 +1,6 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-            # Step 1: Count the frequency of each element
+        # Step 1: Count the frequency of each element
         frequency = Counter(nums)
         
         # Step 2: Create buckets (list of lists) to store elements by frequency
